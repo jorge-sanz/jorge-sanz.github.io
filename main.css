@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#E74C3C;
+}
+
+.container {
+	font-family:Helvetica;
+	color:#ECF0F1;
+	position: fixed; /* or absolute */
+  	top: 30%;
+  	left: 35%;
+	right: 35%;
+	down:35%;
+	text-align:center;
+}
+
