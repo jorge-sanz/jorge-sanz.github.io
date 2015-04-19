@@ -16,3 +16,13 @@ body {
 	text-align:center;
 }
 
+.copyright {
+	font-family:Helvetica;
+	color:#ECF0F1;
+	position: fixed; /* or absolute */
+  	top: 90%;
+  	left: 35%;
+	right: 35%;
+	text-align:center;
+}
+
