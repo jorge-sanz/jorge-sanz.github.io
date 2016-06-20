@@ -2,8 +2,18 @@
 /* CSS Document */
 
 /*--- Navbar ---*/
+
 #top-navbar {
 	background: #0045ab;
+}
+
+.nav {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+#navbar-menu .li {
+	margin-right: 10px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -28,4 +38,62 @@
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
 	background-color: #0045ab;
+}
+
+/*-- Header --*/
+
+#header {
+	min-height: 100vh;
+	background-color: #0045ab;
+}
+
+#avatar {
+	height: 130px;
+	width: 130px;
+	margin-top: 18vh;
+}
+
+#name {
+	text-align: center;
+	color: #fff;
+	margin-top: 7vh;
+	font-size: 2.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+#i-love {
+	text-align: center;
+	color: #fff;
+	font-family: 'Cousine';
+	font-weight: 400;
+	margin-top: 5vh;
+	font-size: 2.3em;
+}
+
+#heart {
+	color: #d8353c;
+	size: 40px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
