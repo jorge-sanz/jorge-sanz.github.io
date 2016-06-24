@@ -45,6 +45,7 @@
 #header {
 	min-height: 100vh;
 	background-color: #0045ab;
+	margin-bottom: 0px;
 }
 
 #avatar {
@@ -102,7 +103,7 @@
 
 #about {
 	min-height: 70vh;
-	color: #f3f3f3;
+	background-color: #f3f3f3;
 }
 
 #about-me-label {
@@ -112,12 +113,11 @@
 }
 
 #about-me-content {
-	margin-top: 5vh;
-	margin-bottom: 5vh;
+	margin-top: 7vh;
+	margin-bottom: 7vh;
 }
 
 .about-me-label {
-	margin-left: 3vw;
 	font-family: 'Cousine', monospace;
 }
 
@@ -130,3 +130,32 @@
 	margin-top: 4.5vh;
 }
 
+/*-- Portfolio --*/
+
+#portfolio-container {
+	margin-top: 7vh;
+	margin-bottom: 7vh;
+}
+
+#work-label {
+	color: #000;
+	font-size: 4em;
+	font-weight: bold;
+	font-family: 'Cousine', monospace;
+}
+
+.project-preview-image {
+	width: 100%;
+}
+
+#projects-container {
+	margin-top: 4vh;
+}
+
+.project-title {
+	margin-top: 20px;
+	color: #0045ab;
+	font-size: 1.5em;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
