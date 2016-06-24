@@ -163,3 +163,13 @@
 .project {
 	margin-bottom: 40px;
 }
+
+/*-- Pictures --*/
+
+#pictures-container {
+	padding: 0;
+}
+
+#me-picture {
+	width: 100%;
+}
